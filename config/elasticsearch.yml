@@ -28,3 +28,7 @@ discovery:
   zen:
     ping.unicast.hosts: ${DISCOVERY_SERVICE}
     minimum_master_nodes: ${NUMBER_OF_MASTERS}
+
+reindex:
+  remote:
+    whitelist: ${REINDEX_REMOTE_WHITELIST_NET}
